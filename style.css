@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,400;0,700;1,600 & display=swap');
+h1 {
+    font-family:familia tipográfica: 'Montserrat', sans-serif;
+    font-size: 32px
+}
+.span{
+    font-family:familia tipográfica: 'Montserrat', sans-serif; 
+    font size:14px;
+    }
+  
+.navbar{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+.grid-container{
+  display:grid; 
+  grid-template-columns:repeat(3,1fr); 
+  grid-template-rows: repeat(2,1fr);
+  gap:20px;
+  
+ }
+:root{
+  --size:1rem;
+
+}
+.pie-página{
+  font-family:familia tipográfica: 'Montserrat', sans-serif; 
+  padding:(--size);
+  display: flex;
+  background-color: #212429;
+  justify-content:space-between;
+  color: #fff;
+  text-decoration:none;
+  padding: 1rem var(--size);
+ }
+
+    
+
